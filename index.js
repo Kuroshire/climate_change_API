@@ -131,7 +131,7 @@ app.get('/news/:newspaperId', (req, res) => {
 
 
 app.get('/', (req, res) => {
-    res.json('Welcome to my Climate Change News API');
+    res.json('Welcome to my Climate Change News API! Go to /news to see which articles are available!')
 })
 
 app.get('/news', (req, res) => {
