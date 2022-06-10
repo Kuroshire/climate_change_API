@@ -4,7 +4,7 @@
   "description": "training project to build api",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Kuroshire",
   "license": "ISC",
